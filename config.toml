@@ -1,0 +1,55 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Davor Badrov"
+theme= "beautifulhugo"
+Paginate = 10
+DefaultContentLanguage = "en"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+
+[Params]
+  subtitle = "My personal website"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+
+[author]
+    id = "dbadrov"
+    name = "davor badrov"
+    author = "dbadrov"
+    homepage = "http://davorbadrov.xyz"
+    github ="davorbadrov"
+    email="dev.davor.badrov@gmail.com"
+    linkedin= "davor-badrov-670b0312b"
+
+[permalinks]
+  page = "/:slug/"
+
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
+
+[[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "Snippets"
+    url = "snippets/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 4
